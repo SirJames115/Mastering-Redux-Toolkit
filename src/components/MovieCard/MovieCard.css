@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #000;
+}
+a :hover {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.card {
+    cursor: pointer;
+    transition: all 0.3s;
+    background: linear-gradient(to right, gray, rgb(122, 118, 118));
+}
+
+.card:hover {
+    transform: scale(1.025);
+    transition: all 0.3s;
+}
